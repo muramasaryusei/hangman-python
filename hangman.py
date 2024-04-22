@@ -35,7 +35,7 @@ def hangman():
     alphabet = set(string.ascii_uppercase) # creates a set of all alphabets
     used_letters = set() # storing the letters that the user has already guessed
 
-    lives = 6
+    lives = 6 # default number of lives
 
     # getting user input
     while len(word_letters) > 0 and lives > 0:
